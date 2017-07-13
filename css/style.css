@@ -1,0 +1,321 @@
+/*general*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+}
+
+.row {
+    margin: 30px 0px;
+}
+
+a {
+    transition: all .3s;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+figure {
+    margin: 0;
+}
+
+.green {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+
+/*nav style*/
+
+#main-nav {
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+#main-nav a {
+    color: #1ac056;
+    font-weight: 400;
+    padding: 25px 20px;
+}
+
+#main-nav a:hover {
+    color: #291f1a;
+}
+
+
+/*header style*/
+
+#main-header {
+    height: 90vh;
+    background: url(../img/header-background.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#header-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-h {
+    margin: 0;
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: 200;
+}
+
+.section-h {
+    margin: 0;
+    font-weight: 200;
+}
+
+
+/*sekcja about*/
+
+#about {
+    background-color: #F9FCFE;
+    box-shadow: 0 0 50px 0 #ECECEC;
+}
+
+#about figure img {
+    max-width: 70%;
+    border: 10px #fff solid;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#about div p {
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+/*umiejęteności */
+
+#skills {
+    background-color: #fff;
+}
+
+.skills-icon {
+    display: inline-block;
+    padding: 20px;
+}
+
+.skills-icon figcaption {
+    padding-top: 20px;
+}
+
+
+/* portfolio*/
+
+#portfolio {
+    background-color: #fff;
+}
+
+#portfolio h2 {
+    padding-bottom: 50px;
+}
+
+#portfolio-items {
+    font-size: 0;
+}
+
+
+/*flip foto*/
+
+.flip-box {
+    height: 350px;
+    perspective: 1000px;
+}
+
+.flip-cart {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover>.flip-cart {
+    transform: rotateY(180deg);
+}
+
+.portfolio-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*    backface-visibility: hidden;*/
+}
+
+.item-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+
+/*end flip*/
+
+.item-content {
+    height: 330px;
+    border: 1px solid #fff;
+    margin: 10px;
+    position: relative;
+}
+
+.item-content-inner {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    left: 0;
+    padding: 5px;
+}
+
+.project-link {
+    color: #fff;
+}
+
+.project-link:hover {
+    color: #1ac056;
+}
+
+#portfolio-item-1 {
+    background-image: url(../img/portfolio1.jpg);
+}
+
+#portfolio-item-2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+
+#portfolio-item-3 {
+    background-image: url(../img/portfolio4.jpg);
+}
+
+
+/* footer contact*/
+
+#contact {
+    background-color: #213B50;
+    color: #fff;
+}
+
+.contact-h {
+    margin: 0;
+    font-weight: 200;
+}
+
+
+/*contact text address*/
+
+.contact-text {
+    font-style: normal;
+}
+
+.contact-text a {
+    font-style: normal;
+    color: #1ac056;
+}
+
+.contact-social {
+    margin-top: 60px;
+}
+
+.social-icon {
+    display: inline-block;
+    border: 1px solid #fff;
+    margin: 0 30px 0 0;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 1em;
+}
+
+.social-icon:hover {
+    color: #1ac056;
+    background-color: #fff;
+}
+
+
+/* styl formularz */
+
+#contact-form {
+    background-color: #213b50;
+    color: #fff;
+}
+
+input,
+textarea,
+button {
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    background-color: #2b4a64;
+    color: #fff;
+    border: 1px solid #2b4a64;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px 0;
+    /* zamiast wysokości lepiej padding height: 30px; */
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #A9A9A9;
+    padding: 5px;
+}
+
+input:focus,
+textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #1ac056;
+    color: #fff;
+    border: solid 1px #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    float: right;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.copyright {
+    background-color: #142634;
+    color: #fff;
+    padding: 5px 80px;
+    margin: 0;
+}
+
+
+/*koniec style form*/
+
+
+/*end main style */

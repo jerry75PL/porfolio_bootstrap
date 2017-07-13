@@ -1,0 +1,37 @@
+/*START RWD STYLE*/
+
+
+/* media 480 640 768 1200 */
+
+@media (max-width: 1200px) {
+    #about figure img {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    #header-caption {
+        padding: 10px;
+    }
+    #header-caption h1 {
+        font-size: 4em;
+    }
+    #header-caption h2 {
+        font-size: 1.5em;
+    }
+    #about figure img {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 640px) {
+    #about figure img {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #about figure img {
+        max-width: 100%;
+    }
+}

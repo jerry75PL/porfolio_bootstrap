@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rwd.css">
+</head>
+
+<body>
+    <!-- nav   -->
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#main-header">Moje Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="nav navbar-nav navbar-right text-right text-lowercase ">
+                    <li><a href="#about">o mnie</a></li>
+                    <li><a href="#skills">umiejętności</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!--header-->
+    <header id="main-header">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div id="header-caption" class="col-xs-12">
+                    <h1 class="header-h">Jan <span class="green">Nowak</span></h1>
+                    <h2 class="header-h">Front-End Developer</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--section about-->
+    <section id="about">
+        <div class="container text-center">
+            <div class="row">
+                <h2 class="section-h">O <span class="green">mnie</span></h2>
+            </div>
+            <div class="row">
+                <figure class="col-lg-6"><img src="img/jan-nowak.jpg" alt=""></figure>
+                <div class="col-lg-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, inventore tempora reprehenderit, modi excepturi suscipit natus accusamus esse optio cumque qui. Iure, explicabo, quos! Quidem qui, et consequuntur architecto iure.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section skills-->
+    <section id="skills">
+        <div class="container text-center">
+            <div class="row">
+                <h2 class="section-h">Moje <span class="green">umiejętności</span></h2>
+            </div>
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis placeat debitis aspernatur ea eum iusto repudiandae impedit, dicta excepturi minima aliquam necessitatibus delectus? Excepturi accusantium velit explicabo quas, voluptate culpa.</p>
+            </div>
+            <div class="row">
+                <figure class="skills-icon"><img src="icons/html5.png" alt="html5">
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                <figure class="skills-icon"><img src="icons/css3.png" alt="css3">
+                    <figcaption>CSS3</figcaption>
+                </figure>
+                <figure class="skills-icon"><img src="icons/js.png" alt="js">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure class="skills-icon"><img src="icons/jquery.png" alt="jquery">
+                    <figcaption>JQuery</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!--section portfolio-->
+    <section id="portfolio">
+        <div class="container text-center">
+            <div class="row">
+                <h2 class="section-h">Moje <span class="green">portfolio</span></h2>
+            </div>
+            <div id="portfolio-items" class="row">
+                <div class="flip-box col-sm-6 col-md-4 nopadding">
+                    <div class="flip-cart">
+                        <div id="portfolio-item-1" class="portfolio-item"></div>
+                        <div class="item-mask">
+                            <div class="item-content">
+                                <div class="item-content-inner">
+                                    <h3>Portfolio 1</h3>
+                                    <p class="project-desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores sequi similique temporibus, possimus fugiat ipsam unde, dolorum iusto ipsa libero, in cumque corporis asperiores! Quam vero, doloribus est voluptas!
+                                    </p>
+                                    <h4>wykorzystane technologie</h4>
+                                    <p class="project-tech">
+                                        HTML5, CSS3, RWD, JavaScript, jQuery, Ajax
+                                    </p>
+                                    <a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-box col-sm-6 col-md-4 nopadding">
+                    <div class="flip-cart">
+                        <div id="portfolio-item-2" class="portfolio-item"></div>
+                        <div class="item-mask">
+                            <div class="item-content">
+                                <div class="item-content-inner">
+                                    <h3>Portfolio 2</h3>
+                                    <p class="project-desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores sequi similique temporibus, possimus fugiat ipsam unde, dolorum iusto ipsa libero, in cumque corporis asperiores! Quam vero, doloribus est voluptas!
+                                    </p>
+                                    <h4>wykorzystane technologie</h4>
+                                    <p class="project-tech">
+                                        HTML5, CSS3, RWD, JavaScript, jQuery, Ajax
+                                    </p>
+                                    <a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-box col-sm-12 col-md-4 nopadding">
+                    <div class="flip-cart">
+                        <div id="portfolio-item-3" class="portfolio-item"></div>
+                        <div class="item-mask">
+                            <div class="item-content">
+                                <div class="item-content-inner">
+                                    <h3>Portfolio 3</h3>
+                                    <p class="project-desc">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolores sequi similique temporibus, possimus fugiat ipsam unde, dolorum iusto ipsa libero, in cumque corporis asperiores! Quam vero, doloribus est voluptas!
+                                    </p>
+                                    <h4>wykorzystane technologie</h4>
+                                    <p class="project-tech">
+                                        HTML5, CSS3, RWD, JavaScript, jQuery, Ajax
+                                    </p>
+                                    <a href="#" class="project-link"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer contact-->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="contact-h">Jan <span class="green">Nowak</span></h2>
+                    <address>            
+            <p class="contact-text">
+                ul. Woronicza 17 <br> 
+                00-950 Warszawa<br><br>
+                tel. 600 600 600<br>
+                e-mail: <a href="mailto:example@gmaill.com">jannowak@gmaill.com</a></p>
+            <p class="contact-social">
+                <a class="social-icon" href="fb"><i class="fa fa-facebook custom-border" aria-hidden="true"></i></a>
+                <a class="social-icon" href="go"><i class="fa fa-google-plus custom-border" aria-hidden="true"></i></a>
+                <a class="social-icon" href="tw"><i class="fa fa-twitter custom-border" aria-hidden="true"></i></a>
+                <a class="social-icon" href="li"><i class="fa fa-linkedin custom-border" aria-hidden="true"></i></a>
+            </p>
+           </address></div>
+
+                <!--footer form-->
+                <div class="col-lg-6">
+                    <form id="contact-form" method="POST" action="https://formspree.io/email@gmail.com" autocomplete="on">
+                        <input type="text" name="name" id="name" placeholder="Imię Nazwisko">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <textarea name="message" id="message" placeholder="Twoja wiadmość"></textarea>
+                        <button type="submit">Wyślij</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="copyright">Copyright &#169; Jan Nowak 2017</p>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
